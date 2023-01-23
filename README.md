@@ -22,7 +22,7 @@ You can find my publications on <a href="https://scholar.google.com/citations?us
 
 
 
-### 🚀️ Technologies
+### 🚀️ Technologies I am familiar with
 
 #### Programming Languages:
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
