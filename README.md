@@ -6,7 +6,7 @@
 <a href="https://www.linkedin.com/in/toqi/"><img height="32" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://scholar.google.com/citations?user=i1SmuwYAAAAJ&amp;hl=en"><img height="32" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white"></a>
 
-Hello, my name is Toqi Tahamid Sarker. I am the co-founder of <a href="https://www.penguin.com.bd/">Penguin</a>, an e-commerce platform based in Bangladesh focusing on consumer electronics. 
+Hello, my name is Toqi Tahamid Sarker. I am a co-founder of <a href="https://www.penguin.com.bd/">Penguin</a>, an e-commerce platform based in Bangladesh focusing on consumer electronics. 
 
 
 My research interest is in Deep Learning, Data Mining, and Human-Centered AI.
@@ -66,4 +66,4 @@ You can find my publications on <a href="https://scholar.google.com/citations?us
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
 
-![](https://komarev.com/ghpvc/?username=toqitahamid)
+![](https://komarev.com/ghpvc/?username=toqitahamid&style=for-the-badge&color=grey)
