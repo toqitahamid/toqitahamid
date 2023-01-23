@@ -16,7 +16,7 @@ I am passionate about utilizing deep learning techniques to address real-world c
 
 I completed my bachelor's with a major in Computer Science and Engineering from BRAC University in 2017.
 
-I worked at <a href="http://www.panacealab.org/">Panacea Lab</a> with <a href="http://www.jmbanda.com/">Dr. Juan M. Banda</a>, Assistant Professor, at Georgia State University, and published a paper in IEEE Big Data 2019.
+I worked at <a href="http://www.panacealab.org/">Panacea Lab</a> with <a href="http://www.jmbanda.com/">Dr. Juan M. Banda</a> at Georgia State University, and published a paper in IEEE Big Data 2019.
 
 You can find my publications on <a href="https://scholar.google.com/citations?user=i1SmuwYAAAAJ&amp;hl=en">Google Scholar.</a>
 
