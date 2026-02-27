@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="835" height="350" viewBox="0 0 835 350">
+  <!-- Window -->
+  <rect width="835" height="350" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="835" height="32" rx="8" fill="#f6f8fa"/>
+  <rect y="24" width="835" height="8" fill="#f6f8fa"/>
+  <line x1="0" y1="32" x2="835" y2="32" stroke="#d0d7de" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="16" r="5" fill="#27c93f"/>
+
+  <!-- Neural network graphic -->
+  <g opacity="0.35">
+    <!-- Connections layer 1 to 2 -->
+    <line x1="105" y1="118" x2="90" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="105" y1="118" x2="140" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="105" y1="118" x2="190" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="118" x2="90" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="118" x2="140" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="118" x2="190" y2="188" stroke="#0969da" stroke-width="1.2"/>
+    <!-- Connections layer 2 to 3 -->
+    <line x1="90" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="90" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="140" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="140" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="190" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="190" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
+    <!-- Nodes -->
+    <circle cx="105" cy="118" r="5" fill="#0969da"/>
+    <circle cx="175" cy="118" r="5" fill="#0969da"/>
+    <circle cx="90" cy="188" r="5" fill="#0969da"/>
+    <circle cx="140" cy="188" r="6" fill="#0969da"/>
+    <circle cx="190" cy="188" r="5" fill="#0969da"/>
+    <circle cx="105" cy="258" r="5" fill="#0969da"/>
+    <circle cx="175" cy="258" r="5" fill="#0969da"/>
+  </g>
+
+  <!-- Text content -->
+  <g font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="14">
+    <!-- Header -->
+    <text y="70">
+      <tspan x="300" fill="#0550ae" font-weight="bold">toqi</tspan><tspan fill="#656d76">@</tspan><tspan fill="#0550ae" font-weight="bold">github</tspan>
+    </text>
+
+    <!-- Blinking cursor -->
+    <rect x="396" y="57" width="8" height="16" fill="#0550ae">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Separator -->
+    <line x1="300" y1="82" x2="500" y2="82" stroke="#d0d7de" stroke-width="1"/>
+
+    <!-- Info -->
+    <text y="108"><tspan x="300" fill="#0969da">role</tspan><tspan x="390" fill="#1f2328">ML/AI Researcher</tspan></text>
+    <text y="132"><tspan x="300" fill="#0969da">work</tspan><tspan x="390" fill="#1f2328">Full Stack Developer</tspan></text>
+
+    <text y="164"><tspan x="300" fill="#0969da">langs</tspan><tspan x="390" fill="#1f2328">Python · Rust · Go · Swift</tspan></text>
+    <text y="188"><tspan x="300" fill="#0969da">ml</tspan><tspan x="390" fill="#1f2328">PyTorch · LaTeX</tspan></text>
+    <text y="212"><tspan x="300" fill="#0969da">web</tspan><tspan x="390" fill="#1f2328">React · Next.js</tspan></text>
+    <text y="236"><tspan x="300" fill="#0969da">infra</tspan><tspan x="390" fill="#1f2328">Docker</tspan></text>
+
+    <text y="268"><tspan x="300" fill="#0969da">site</tspan><tspan x="390" fill="#1f2328">toqitahamid.com</tspan></text>
+  </g>
+
+  <!-- Color palette -->
+  <g transform="translate(300, 292)">
+    <rect width="24" height="12" rx="2" fill="#f6f8fa" stroke="#d0d7de" stroke-width="0.5"/>
+    <rect x="28" width="24" height="12" rx="2" fill="#ff5f56"/>
+    <rect x="56" width="24" height="12" rx="2" fill="#ffbd2e"/>
+    <rect x="84" width="24" height="12" rx="2" fill="#27c93f"/>
+    <rect x="112" width="24" height="12" rx="2" fill="#0969da"/>
+    <rect x="140" width="24" height="12" rx="2" fill="#8250df"/>
+    <rect x="168" width="24" height="12" rx="2" fill="#1a7f37"/>
+    <rect x="196" width="24" height="12" rx="2" fill="#1f2328"/>
+  </g>
+</svg>
