@@ -65,10 +65,10 @@
     <line x1="300" y1="284" x2="500" y2="284" stroke="#21262d" stroke-width="1"/>
 
     <!-- Dynamic stats -->
-    <text y="308"><tspan x="300" fill="#79c0ff">repos</tspan><tspan x="390" fill="#c9d1d9" id="repos_data">0</tspan></text>
-    <text y="332"><tspan x="300" fill="#79c0ff">stars</tspan><tspan x="390" fill="#c9d1d9" id="stars_data">0</tspan></text>
-    <text y="356"><tspan x="300" fill="#79c0ff">commits</tspan><tspan x="390" fill="#c9d1d9" id="commits_data">0</tspan></text>
-    <text y="380"><tspan x="300" fill="#79c0ff">followers</tspan><tspan x="390" fill="#c9d1d9" id="followers_data">0</tspan></text>
+    <text y="308"><tspan x="300" fill="#79c0ff">repos</tspan><tspan x="390" fill="#c9d1d9" id="repos_data">62</tspan></text>
+    <text y="332"><tspan x="300" fill="#79c0ff">stars</tspan><tspan x="390" fill="#c9d1d9" id="stars_data">11</tspan></text>
+    <text y="356"><tspan x="300" fill="#79c0ff">commits</tspan><tspan x="390" fill="#c9d1d9" id="commits_data">2,051</tspan></text>
+    <text y="380"><tspan x="300" fill="#79c0ff">followers</tspan><tspan x="390" fill="#c9d1d9" id="followers_data">34</tspan></text>
   </g>
 
   <!-- Color palette -->
