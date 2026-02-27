@@ -139,9 +139,9 @@
     <g font-size="13">
       <text y="142"><tspan x="470" fill="#0550ae">repos</tspan><tspan x="580" fill="#1f2328" id="repos_data">62</tspan></text>
       <text y="164"><tspan x="470" fill="#0550ae">stars</tspan><tspan x="580" fill="#1f2328" id="stars_data">11</tspan></text>
-      <text y="186"><tspan x="470" fill="#0550ae">commits</tspan><tspan x="580" fill="#1f2328" id="commits_data">2,054</tspan></text>
+      <text y="186"><tspan x="470" fill="#0550ae">commits</tspan><tspan x="580" fill="#1f2328" id="commits_data">2,055</tspan></text>
       <text y="208"><tspan x="470" fill="#0550ae">followers</tspan><tspan x="580" fill="#1f2328" id="followers_data">34</tspan></text>
-      <text y="230"><tspan x="470" fill="#0550ae">loc</tspan><tspan x="580" fill="#1f2328" id="loc_data">4,406,043</tspan></text>
+      <text y="230"><tspan x="470" fill="#0550ae">loc</tspan><tspan x="580" fill="#1f2328" id="loc_data">2,485,350</tspan></text>
     </g>
   </g>
 
