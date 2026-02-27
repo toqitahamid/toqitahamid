@@ -83,8 +83,9 @@ def fetch_total_commits(years):
 
 
 def fetch_loc(repo_names):
-    """Get total lines of code (additions) across owned non-fork repos."""
-    total = 0
+    """Get total additions and deletions across owned non-fork repos."""
+    additions = 0
+    deletions = 0
     headers = {"Authorization": f"Bearer {TOKEN}"}
 
     for name in repo_names:
@@ -97,25 +98,27 @@ def fetch_loc(repo_names):
                         contributor.get("author")
                         and contributor["author"]["login"].lower() == USERNAME.lower()
                     ):
-                        total += sum(w["a"] for w in contributor["weeks"])
+                        for w in contributor["weeks"]:
+                            additions += w["a"]
+                            deletions += w["d"]
                 break
             elif resp.status_code == 202:
                 time.sleep(2)
             else:
                 break
 
-    return total
+    return additions, deletions
 
 
-def update_svg(filepath, stats):
-    """Update SVG stat elements by their id attributes using regex."""
+
+def update_svg(filepath, updates):
+    """Update SVG elements by their id attributes using regex."""
     with open(filepath, "r") as f:
         content = f.read()
 
-    for key, value in stats.items():
-        formatted = f"{value:,}"
-        pattern = rf'(id="{key}_data">)[^<]*(</tspan>)'
-        content = re.sub(pattern, rf"\g<1>{formatted}\2", content)
+    for svg_id, value in updates.items():
+        pattern = rf'(id="{svg_id}">)[^<]*(</tspan>)'
+        content = re.sub(pattern, rf"\g<1>{value}\2", content)
 
     with open(filepath, "w") as f:
         f.write(content)
@@ -124,21 +127,30 @@ def update_svg(filepath, stats):
 def main():
     info = fetch_user_info()
     commits = fetch_total_commits(info["years"])
-    loc = fetch_loc(info["repo_names"])
+    additions, deletions = fetch_loc(info["repo_names"])
+    loc = additions - deletions
 
     stats = {
         "repos": info["repos"],
         "stars": info["stars"],
         "commits": commits,
         "followers": info["followers"],
-        "loc": loc,
     }
+
+    updates = {}
+    for key, value in stats.items():
+        updates[f"{key}_data"] = f"{value:,}"
+
+    updates["loc_data"] = f"{loc:,}"
+    updates["loc_add_data"] = f"{additions:,}++"
+    updates["loc_del_data"] = f"{deletions:,}--"
 
     for key, value in stats.items():
         print(f"  {key}: {value:,}")
+    print(f"  loc: {loc:,} ({additions:,}++ {deletions:,}--)")
 
     for svg in ["dark_mode.svg", "light_mode.svg"]:
-        update_svg(svg, stats)
+        update_svg(svg, updates)
         print(f"  Updated {svg}")
 
 

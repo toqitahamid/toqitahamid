@@ -73,28 +73,28 @@
 
   <!-- Floating particles -->
   <g fill="#58a6ff">
-    <circle cx="100" cy="310" r="1.5" opacity="0">
-      <animate attributeName="cy" values="310;55" dur="14s" repeatCount="indefinite"/>
+    <circle cx="100" cy="320" r="1.5" opacity="0">
+      <animate attributeName="cy" values="320;55" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.1;0.1;0" keyTimes="0;0.1;0.85;1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="250" cy="305" r="1" opacity="0">
-      <animate attributeName="cy" values="305;48" dur="11s" begin="2.5s" repeatCount="indefinite"/>
+    <circle cx="250" cy="318" r="1" opacity="0">
+      <animate attributeName="cy" values="318;48" dur="11s" begin="2.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.07;0.07;0" keyTimes="0;0.1;0.85;1" dur="11s" begin="2.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="400" cy="315" r="1.5" opacity="0">
-      <animate attributeName="cy" values="315;42" dur="16s" begin="5s" repeatCount="indefinite"/>
+    <circle cx="400" cy="322" r="1.5" opacity="0">
+      <animate attributeName="cy" values="322;42" dur="16s" begin="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.09;0.09;0" keyTimes="0;0.1;0.85;1" dur="16s" begin="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="540" cy="308" r="1" opacity="0">
-      <animate attributeName="cy" values="308;52" dur="12s" begin="1s" repeatCount="indefinite"/>
+    <circle cx="540" cy="319" r="1" opacity="0">
+      <animate attributeName="cy" values="319;52" dur="12s" begin="1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.07;0.07;0" keyTimes="0;0.1;0.85;1" dur="12s" begin="1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="680" cy="312" r="2" opacity="0">
-      <animate attributeName="cy" values="312;46" dur="18s" begin="3.5s" repeatCount="indefinite"/>
+    <circle cx="680" cy="321" r="2" opacity="0">
+      <animate attributeName="cy" values="321;46" dur="18s" begin="3.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.1;0.1;0" keyTimes="0;0.1;0.85;1" dur="18s" begin="3.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="790" cy="306" r="1" opacity="0">
-      <animate attributeName="cy" values="306;50" dur="13s" begin="7s" repeatCount="indefinite"/>
+    <circle cx="790" cy="317" r="1" opacity="0">
+      <animate attributeName="cy" values="317;50" dur="13s" begin="7s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.06;0.06;0" keyTimes="0;0.1;0.85;1" dur="13s" begin="7s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -133,7 +133,9 @@
     <line x1="440" y1="98" x2="440" y2="300" stroke="#30363d" stroke-width="1" stroke-dasharray="4,3"/>
 
     <!-- Right column: Stats -->
-    <text x="470" y="106" font-size="14" fill="#7d8590">github stats</text>
+    <text y="106" font-size="14">
+      <tspan x="470" fill="#7d8590">github stats</tspan>
+    </text>
     <line x1="470" y1="118" x2="640" y2="118" stroke="#30363d" stroke-width="1" stroke-dasharray="4,3"/>
 
     <g font-size="13">
@@ -141,7 +143,8 @@
       <text y="164"><tspan x="470" fill="#79c0ff">stars</tspan><tspan x="580" fill="#e6edf3" id="stars_data">11</tspan></text>
       <text y="186"><tspan x="470" fill="#79c0ff">commits</tspan><tspan x="580" fill="#e6edf3" id="commits_data">2,054</tspan></text>
       <text y="208"><tspan x="470" fill="#79c0ff">followers</tspan><tspan x="580" fill="#e6edf3" id="followers_data">34</tspan></text>
-      <text y="230"><tspan x="470" fill="#79c0ff">loc</tspan><tspan x="580" fill="#e6edf3" id="loc_data">4,406,043</tspan></text>
+      <text y="238"><tspan x="470" fill="#79c0ff">lines of code</tspan><tspan x="580" fill="#e6edf3" id="loc_data">4,406,043</tspan></text>
+      <text y="258"><tspan x="470" fill="#7d8590">( </tspan><tspan fill="#7ee787" id="loc_add_data">5,234,567++</tspan><tspan fill="#7d8590">,  </tspan><tspan fill="#f85149" id="loc_del_data">828,524--</tspan><tspan fill="#7d8590"> )</tspan></text>
     </g>
   </g>
 
