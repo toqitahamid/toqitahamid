@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="835" height="350" viewBox="0 0 835 350">
+<svg xmlns="http://www.w3.org/2000/svg" width="835" height="435" viewBox="0 0 835 435">
   <!-- Window -->
-  <rect width="835" height="350" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect width="835" height="435" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
 
   <!-- Title bar -->
   <rect width="835" height="32" rx="8" fill="#f6f8fa"/>
@@ -14,28 +14,25 @@
 
   <!-- Neural network graphic -->
   <g opacity="0.35">
-    <!-- Connections layer 1 to 2 -->
-    <line x1="105" y1="118" x2="90" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="105" y1="118" x2="140" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="105" y1="118" x2="190" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="175" y1="118" x2="90" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="175" y1="118" x2="140" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="175" y1="118" x2="190" y2="188" stroke="#0969da" stroke-width="1.2"/>
-    <!-- Connections layer 2 to 3 -->
-    <line x1="90" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="90" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="140" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="140" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="190" y1="188" x2="105" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <line x1="190" y1="188" x2="175" y2="258" stroke="#0969da" stroke-width="1.2"/>
-    <!-- Nodes -->
-    <circle cx="105" cy="118" r="5" fill="#0969da"/>
-    <circle cx="175" cy="118" r="5" fill="#0969da"/>
-    <circle cx="90" cy="188" r="5" fill="#0969da"/>
-    <circle cx="140" cy="188" r="6" fill="#0969da"/>
-    <circle cx="190" cy="188" r="5" fill="#0969da"/>
-    <circle cx="105" cy="258" r="5" fill="#0969da"/>
-    <circle cx="175" cy="258" r="5" fill="#0969da"/>
+    <line x1="105" y1="153" x2="90" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="105" y1="153" x2="140" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="105" y1="153" x2="190" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="153" x2="90" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="153" x2="140" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="175" y1="153" x2="190" y2="223" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="90" y1="223" x2="105" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="90" y1="223" x2="175" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="140" y1="223" x2="105" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="140" y1="223" x2="175" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="190" y1="223" x2="105" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <line x1="190" y1="223" x2="175" y2="293" stroke="#0969da" stroke-width="1.2"/>
+    <circle cx="105" cy="153" r="5" fill="#0969da"/>
+    <circle cx="175" cy="153" r="5" fill="#0969da"/>
+    <circle cx="90" cy="223" r="5" fill="#0969da"/>
+    <circle cx="140" cy="223" r="6" fill="#0969da"/>
+    <circle cx="190" cy="223" r="5" fill="#0969da"/>
+    <circle cx="105" cy="293" r="5" fill="#0969da"/>
+    <circle cx="175" cy="293" r="5" fill="#0969da"/>
   </g>
 
   <!-- Text content -->
@@ -55,7 +52,7 @@
 
     <!-- Info -->
     <text y="108"><tspan x="300" fill="#0969da">role</tspan><tspan x="390" fill="#1f2328">ML/AI Researcher</tspan></text>
-    <text y="132"><tspan x="300" fill="#0969da">work</tspan><tspan x="390" fill="#1f2328">Full Stack Developer</tspan></text>
+    <text y="132"><tspan x="300" fill="#0969da">build</tspan><tspan x="390" fill="#1f2328">Full Stack Engineering</tspan></text>
 
     <text y="164"><tspan x="300" fill="#0969da">langs</tspan><tspan x="390" fill="#1f2328">Python · Rust · Go · Swift</tspan></text>
     <text y="188"><tspan x="300" fill="#0969da">ml</tspan><tspan x="390" fill="#1f2328">PyTorch · LaTeX</tspan></text>
@@ -63,10 +60,19 @@
     <text y="236"><tspan x="300" fill="#0969da">infra</tspan><tspan x="390" fill="#1f2328">Docker</tspan></text>
 
     <text y="268"><tspan x="300" fill="#0969da">site</tspan><tspan x="390" fill="#1f2328">toqitahamid.com</tspan></text>
+
+    <!-- Separator 2 -->
+    <line x1="300" y1="284" x2="500" y2="284" stroke="#d0d7de" stroke-width="1"/>
+
+    <!-- Dynamic stats -->
+    <text y="308"><tspan x="300" fill="#0969da">repos</tspan><tspan x="390" fill="#1f2328" id="repos_data">0</tspan></text>
+    <text y="332"><tspan x="300" fill="#0969da">stars</tspan><tspan x="390" fill="#1f2328" id="stars_data">0</tspan></text>
+    <text y="356"><tspan x="300" fill="#0969da">commits</tspan><tspan x="390" fill="#1f2328" id="commits_data">0</tspan></text>
+    <text y="380"><tspan x="300" fill="#0969da">followers</tspan><tspan x="390" fill="#1f2328" id="followers_data">0</tspan></text>
   </g>
 
   <!-- Color palette -->
-  <g transform="translate(300, 292)">
+  <g transform="translate(300, 406)">
     <rect width="24" height="12" rx="2" fill="#f6f8fa" stroke="#d0d7de" stroke-width="0.5"/>
     <rect x="28" width="24" height="12" rx="2" fill="#ff5f56"/>
     <rect x="56" width="24" height="12" rx="2" fill="#ffbd2e"/>
