@@ -13,12 +13,12 @@ Machine learning, deep learning, and AI systems. Currently focused on training m
 Building reliable systems and web applications.
 
 **Systems:** Rust, Go, Docker
-**Web:** React, Node.js
+**Web:** React, Next.js
 **Mobile:** Swift
 
 ## Links
 
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=i1SmuwYAAAAJ&hl=en)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/toqitahamid)
 
 ---
