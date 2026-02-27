@@ -1,63 +1,28 @@
-<div align="center">
+# Toqi Tahamid
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=39FF14&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=150&lines=%24+whoami;%3E+toqitahamid+--+ML%2FAI+Researcher;%24+hobby+--list;%3E+full+stack+development;%24+status;%3E+building+things+that+think" alt="terminal header" />
+ML/AI researcher and full stack developer. I build things that think.
 
-</div>
+## Research
 
-<br>
+Machine learning, deep learning, and AI systems. Currently focused on training models and publishing research.
 
-```bash
-$ cat about.txt
-```
-```
-  ML/AI researcher by day, full stack builder by night.
-  I train models, break systems, and occasionally ship things.
-  Currently somewhere between a paper deadline and a side project.
-```
+**Tools:** Python, PyTorch, LaTeX
 
-<br>
+## Engineering
 
-```bash
-$ skills --list
-```
+Building reliable systems and web applications.
 
-<br>
+**Systems:** Rust, Go, Docker
+**Web:** React, Node.js
+**Mobile:** Swift
 
-**`[research]`** &nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+## Links
 
-**`[systems]`** &nbsp;
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**`[web]`** &nbsp;
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**`[mobile]`** &nbsp;
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-
-<br>
-
-```bash
-$ diagnostics --github
-```
-
-<br>
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=toqitahamid&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9&rank_icon=github" />
-  &nbsp;&nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=toqitahamid&layout=compact&hide_border=true&bg_color=0d1117&title_color=39FF14&text_color=c9d1d9" />
-</div>
-
-<br>
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/toqitahamid)
 
 ---
 
 <div align="center">
-  <code>$ _</code>
+  <img src="https://github-readme-stats.vercel.app/api?username=toqitahamid&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&icon_color=586069&text_color=586069&rank_icon=github" height="150" />
 </div>
