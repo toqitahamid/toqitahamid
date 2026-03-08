@@ -143,8 +143,8 @@
       <text y="164"><tspan x="470" fill="#0550ae">stars</tspan><tspan x="580" fill="#1f2328" id="stars_data">11</tspan></text>
       <text y="186"><tspan x="470" fill="#0550ae">commits</tspan><tspan x="580" fill="#1f2328" id="commits_data">2,311</tspan></text>
       <text y="208"><tspan x="470" fill="#0550ae">followers</tspan><tspan x="580" fill="#1f2328" id="followers_data">33</tspan></text>
-      <text y="238"><tspan x="470" fill="#0550ae">lines of code</tspan><tspan x="580" fill="#1f2328" id="loc_data">2,947,041</tspan></text>
-      <text y="258"><tspan x="470" fill="#656d76">( </tspan><tspan fill="#1a7f37" id="loc_add_data">3,787,706++</tspan><tspan fill="#656d76">,  </tspan><tspan fill="#cf222e" id="loc_del_data">840,665--</tspan><tspan fill="#656d76"> )</tspan></text>
+      <text y="238"><tspan x="470" fill="#0550ae">lines of code</tspan><tspan x="580" fill="#1f2328" id="loc_data">2,053,479</tspan></text>
+      <text y="258"><tspan x="470" fill="#656d76">( </tspan><tspan fill="#1a7f37" id="loc_add_data">2,627,763++</tspan><tspan fill="#656d76">,  </tspan><tspan fill="#cf222e" id="loc_del_data">574,284--</tspan><tspan fill="#656d76"> )</tspan></text>
     </g>
   </g>
 
