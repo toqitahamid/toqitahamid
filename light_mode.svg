@@ -141,10 +141,10 @@
     <g font-size="13">
       <text y="142"><tspan x="470" fill="#0550ae">repos</tspan><tspan x="580" fill="#1f2328" id="repos_data">91</tspan></text>
       <text y="164"><tspan x="470" fill="#0550ae">stars</tspan><tspan x="580" fill="#1f2328" id="stars_data">14</tspan></text>
-      <text y="186"><tspan x="470" fill="#0550ae">commits</tspan><tspan x="580" fill="#1f2328" id="commits_data">5,327</tspan></text>
+      <text y="186"><tspan x="470" fill="#0550ae">commits</tspan><tspan x="580" fill="#1f2328" id="commits_data">5,378</tspan></text>
       <text y="208"><tspan x="470" fill="#0550ae">followers</tspan><tspan x="580" fill="#1f2328" id="followers_data">38</tspan></text>
-      <text y="238"><tspan x="470" fill="#0550ae">lines of code</tspan><tspan x="580" fill="#1f2328" id="loc_data">6,813,812</tspan></text>
-      <text y="258"><tspan x="470" fill="#656d76">( </tspan><tspan fill="#1a7f37" id="loc_add_data">8,643,073++</tspan><tspan fill="#656d76">,  </tspan><tspan fill="#cf222e" id="loc_del_data">1,829,261--</tspan><tspan fill="#656d76"> )</tspan></text>
+      <text y="238"><tspan x="470" fill="#0550ae">lines of code</tspan><tspan x="580" fill="#1f2328" id="loc_data">6,862,731</tspan></text>
+      <text y="258"><tspan x="470" fill="#656d76">( </tspan><tspan fill="#1a7f37" id="loc_add_data">8,729,059++</tspan><tspan fill="#656d76">,  </tspan><tspan fill="#cf222e" id="loc_del_data">1,866,328--</tspan><tspan fill="#656d76"> )</tspan></text>
     </g>
   </g>
 
